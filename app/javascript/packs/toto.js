@@ -1,0 +1,17 @@
+import { Calendar } from '@fullcalendar/core';
+import timeGridPlugin from '@fullcalendar/timegrid';
+import '@fullcalendar/core/main.css';
+import '@fullcalendar/timegrid/main.css';
+
+document.addEventListener('DOMContentLoaded', function() {
+  var calendarEl = document.getElementById('calendar');
+
+  var calendar = new Calendar(calendarEl, {
+    plugins: [ timeGridPlugin ],
+    defaultView: 'timeGrid',
+    height: 500,
+    nowIndicator: true
+  });
+
+  calendar.render();
+});
