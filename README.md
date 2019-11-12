@@ -9,8 +9,9 @@ Navigate to that directory: `cd rails-and-fullcal`
 You need ruby 2.6.3p62, to install it using rbenv:
 `rbenv install 2.6.3`
 
-Bundle the project and run it
+Bundle the project, install the yarn dependancies, and run it
 ```bundle
+yarn install
 rails s
 ```
 
