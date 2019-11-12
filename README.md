@@ -10,7 +10,8 @@ You need ruby 2.6.3p62, to install it using rbenv:
 `rbenv install 2.6.3`
 
 Bundle the project, install the yarn dependancies, and run it
-```bundle
+```
+bundle
 yarn install
 rails s
 ```
