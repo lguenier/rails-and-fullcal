@@ -1,4 +1,4 @@
 class TotoController < ApplicationController
-  def home
+  def calendar
   end
 end

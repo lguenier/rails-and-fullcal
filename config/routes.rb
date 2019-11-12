@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   
-  get '/titi', to: 'toto#titi', as: 'main'
-  root "toto#titi"
+  get '/calendar', to: 'toto#calendar', as: 'main'
+  root "toto#calendar"
 end

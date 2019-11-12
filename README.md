@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
 
-Things you may want to cover:
+Clone this directory `git clone git@github.com:lguenier/rails-and-fullcal.git`
 
-* Ruby version
+Navigate to that directory: `cd rails-and-fullcal`
 
-* System dependencies
+You need ruby 2.6.3p62, to install it using rbenv:
+`rbenv install 2.6.3`
 
-* Configuration
+Bundle the project and run it
+```bundle
+rails s
+```
 
-* Database creation
+Make sure your webpack server is running as well
+`bin/webpack-dev-server`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can now nagivate to the running server on localhost:3000
